@@ -14,7 +14,20 @@
   "author": "Stiven Ruiz <stiven45ruiz@gmail.com>",
   "license": "MIT",
   "bin": {
-    "ramdom-msg": "./bin/global.js"
+    "ramdom-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stiven45ruiz/myFirstPackageNPM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stiven45ruiz/myFirstPackageNPM/issues"
+  },
+  "homepage": "https://github.com/stiven45ruiz/myFirstPackageNPM#readme"
 }
